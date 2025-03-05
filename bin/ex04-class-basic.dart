@@ -86,6 +86,7 @@ Point.fromJson(Map<String, double> json)
               : x = json['x'] ?? 0, y = json['y'] ?? 0;
 }
 
+
 testClassNamed() {
   var p1 = Point(2.5, 3.0);   // 기본 생성자 사용
   var p2 = Point.origin();      // 명명된 생성자 사용
